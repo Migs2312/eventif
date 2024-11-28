@@ -27,7 +27,7 @@ def create(request):
         settings.DEFAULT_FROM_EMAIL,
         form.cleaned_data['email'])
 
-    messages.success(request, 'Contato realizado com sucesso!')
+    messages.success(request, 'Mensagem enviada com sucesso!')
     return HttpResponseRedirect('/contact')
 
 

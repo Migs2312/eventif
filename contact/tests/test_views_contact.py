@@ -33,8 +33,8 @@ class ContactGet(TestCase):
 
 class ContactPostValid(TestCase):
     def setUp(self):
-        data = dict(name="Théo Ferraz",
-                    email='theoferrazalmeida@hotmail.com', phone='53-12345-6789', message="Olá mundo")
+        data = dict(name="Miguel Martins",
+                    email='andrademartins.m@gmail.com', phone='53-12345-6789', message="Olá mundo")
         self.resp = self.client.post('/contact/', data)
 
     def test_post(self):
