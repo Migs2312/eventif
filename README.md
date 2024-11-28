@@ -20,3 +20,5 @@ pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 ```
+
+Eu tive uns problemas com o github, então acabei criando outro repositório
